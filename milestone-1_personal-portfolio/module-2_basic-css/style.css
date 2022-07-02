@@ -1,0 +1,23 @@
+.heading-two {
+    background-color: blue;
+    color: #444444;
+}
+
+#headingTwo {
+    font-size: 30px;
+}
+
+.text-same {
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.different-style {
+    color: red;
+    font-size: 20px;
+}
+
+.text-same {
+    display: inline;
+}
