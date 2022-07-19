@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Property</title>
+
+    <style>
+        :root {
+            --main-color: tomato;
+            --border-color: gray;
+            --main-background-color: cyan;
+        }
+
+        h2 {
+            color: var(--main-color);
+            background-color: var(--main-background-color);
+            border: 2px solid var(--border-color);
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h2>Custom Property</h2>
+    </header>
+</body>
+</html>

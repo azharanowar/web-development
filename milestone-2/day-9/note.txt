@@ -1,0 +1,25 @@
+Module 7: More CSS, Icon, CSS3, Animation
+
+7-1 Visibility Hidden vs Display None
+	visibility is used just for hide or show
+	but display is used for the element exists or not
+
+7-2 CSS Overflow visible, hidden, scroll, text-overflow, ellipsis
+	Overflow hidden, scroll, overflow x and y, ellipses is used to showing overflow with three dot (...)
+
+7-3 Optimize images, types of images, svg, png, jpg, Sprite
+	Tinypng for optimizing a image.
+
+7-4 Add icons using font awesome and create social links
+
+7-5 Transform element using rotate scale translate
+
+7-6 Introduction to CSS animation Transition
+
+7-7 Cricket match animation using transition and transform
+
+7-8 (advanced) CSS animation and bounce effect with balls
+
+7-9 Float left, float right, min-height, max-height, cursor
+
+7-10 Module Summary
