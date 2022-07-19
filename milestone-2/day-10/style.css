@@ -72,3 +72,33 @@
     border: 1px solid tomato;
     text-align: center;
 }
+
+
+
+/* Exploring Responsive CSS */
+
+.foods {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    text-align: center;
+}
+
+.food {
+    padding: 10px;
+}
+
+.food img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 557px) {
+    .foods {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+}
