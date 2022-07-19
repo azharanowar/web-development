@@ -1,0 +1,12 @@
+Module 5 Assignment Day 1: Personal Website Build a Brand New Website
+
+
+
+
+Notes: 
+
+Getting Bonus Marks:
+    1. Use a google font
+    2. Create "Get My Update" section with a form
+    3. And add another section by myself
+    3. Class name should be meaningfull.
