@@ -1,1 +1,20 @@
-Html 5, Audio, Video, YouTube video show with embed ifram
+6-1 Html 5, Audio, Video, YouTube video show with embed ifram
+
+6-2 HTML5 Semantic tags section article header footer main
+
+6-3 HTML table, table head, table body, table row, table data
+	table, thead, tbody, tr, th, td,
+
+6-4 Html form input label fieldset legend textarea submit
+
+6-5 Simple navbar and internal navigation among files
+
+6-6 Add nested menu dropdown option on mouseover
+
+6-7 CSS specificity, style priority and !important
+
+6-8 (advanced) CSS Custom property and use var, calc
+
+6-9 All html tags, everything you need to know about html
+
+6-10 All html attributes Title attribute, comments, alt, data
