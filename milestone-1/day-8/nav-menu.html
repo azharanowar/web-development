@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Menu</title>
+    <style>
+        .nav-menu > ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 50px;
+        }
+        .nav-menu > ul > li {
+            margin-right: 30px;
+            width: 100px;
+        }
+        .nav-menu ul li a {
+            text-decoration: none;
+            height: 30px; 
+            display: block;
+            background-color: tomato;
+            color: white;
+            padding-top: 10px;
+            text-align: center;
+        }
+        .dropdown {
+            list-style: none;
+            padding: 0;
+            display: none;
+        }
+        .dropdown li {
+            margin-top: 10px;
+        }
+
+        .nav-menu > ul > li:hover .dropdown {
+            display: block;
+        } 
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <a href="#">Services</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Services - 1</a></li>
+                        <li><a href="#">Services - 2</a></li>
+                        <li><a href="#">Services - 3</a></li>
+                        <li><a href="#">Services - 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

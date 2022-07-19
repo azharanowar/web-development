@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <p>Name: <input type="text" name="name" placeholder="Enter your name here..."></p>
+        <p>Email: <input type="email" name="email" placeholder="Enter your email here..."></p>
+        <p>Password: <input type="password" name="password" placeholder="Enter your password here..."></p>
+        <fieldset>
+            <legend>Select your option by radio</legend>
+            <p>
+                <label>
+                    <input type="radio" name="radio" id="one">One
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="radio" id="two">Two
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="radio" id="three">Three
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select your option by checkbox</legend>
+            <p>
+                <label>
+                    <input type="checkbox" name="checkbox-one" id="one">Checkbox One
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="checkbox-2" id="two">Checkbox Two
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="checkbox-3" id="three">Checkbox Three
+                </label>
+            </p>
+        </fieldset>
+
+        <textarea placeholder="Enter your instruction here..." name="instruction" rows="5" cols="50">
+
+        </textarea>
+    </form>
+</body>
+</html>
