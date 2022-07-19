@@ -28,3 +28,25 @@
     color: white;
     border: 2px solid tomato;
 }
+
+
+.main-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.main-menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.main-menu ul li {
+    margin-left: 20px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px
+}
