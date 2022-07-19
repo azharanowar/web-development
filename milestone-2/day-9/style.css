@@ -86,3 +86,52 @@
 .tiny-box:hover {
     transform: rotate(145deg) scale(1.5);
 }
+
+
+
+
+
+.main-box {
+    width: 800px;
+    height: 400px;
+    background-color: burlywood;
+}
+
+.big-ball {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: tomato;
+    position: relative;
+    animation: ball_animation 2s infinite ease-in;
+}
+
+.big-ball:hover {
+    animation: ball_animation 4s infinite ease-in-out;
+}
+
+
+@keyframes ball_animation{
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: calc( 100% - 100px );
+        left: calc( 25% - 100px );
+    }
+
+    50% {
+        top: 0;
+        left: calc( 50% - 100px );
+    }
+    75% {
+        top: calc( 100% - 100px );
+        left: calc( 75% - 100px );
+    }
+    100% {
+        top: 0;
+        left: calc( 100% - 100px );
+    }
+
+}
