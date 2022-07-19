@@ -9,3 +9,15 @@ a {
 a:visited {
     color: red;
 }
+
+ul::before{
+    content: "Hello Before...";
+}
+ul::after{
+    content: "Hello After...";
+}
+
+
+ul:first-child {
+    color: blue;
+}
