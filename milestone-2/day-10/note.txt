@@ -1,0 +1,28 @@
+Module - 8: Resposive CSS Layout
+
+
+8-2 flexbox, flex direction justify content align items
+
+
+8-3 Create Login Form And Flexible Nav Using Flexbox
+
+
+8-4 CSS Grid layout template columns grid gap
+
+
+8-5 Create calendar using css grid and flex box
+
+
+8-6 Explore Responsiveness using Media query
+
+
+8-7 Seven things you need to do to make a website responsive
+
+
+8-8 (Recap) Responsive overview and multi column responsive
+
+
+8-9 All CSS properties, everything you need to know about css
+
+
+8-10 Responsive CSS Layout Summary
