@@ -50,3 +50,19 @@
     color: black;
     font-size: 18px
 }
+
+
+
+
+
+/* Exploring Grid Layout */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.items {
+    border: 1px solid tomato;
+    text-align: center;
+}
