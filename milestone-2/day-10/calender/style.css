@@ -1,0 +1,27 @@
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+
+}
+
+.date, .day {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: lightcoral;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.day {
+    background-color: lightgrey;
+    height: 70px;
+}
+.other-month {
+    background-color: lightgray;
+}
