@@ -36,3 +36,23 @@
     text-overflow: ellipsis;
 }
 
+
+
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    margin: 50px;
+}
+
+.inner {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    /* transform: rotate(180deg); */
+    /* transform: scale(1.4); */
+    /* transform: skew(3deg);  */
+    /* transform: translate(100px); */
+}
+
