@@ -59,7 +59,13 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 200px) 1fr;
+    /* justify-content: space-around; */
+
+    /* justify-items: center; */
+
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
 }
 
 .items {
