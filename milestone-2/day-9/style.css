@@ -1,0 +1,38 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    margin: 10px;
+} */
+
+.box-2 {
+    visibility: hidden;
+}
+
+.box-2 {
+    display: none
+}
+
+
+
+.overflow {
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;;
+    overflow-x: hidden;
+}
+
+
+
+.small-box {
+    width: 220px;
+    border: 1px solid tomato;
+    overflow: hidden;
+}
+
+.pera {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

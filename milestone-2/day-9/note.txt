@@ -5,7 +5,7 @@ Module 7: More CSS, Icon, CSS3, Animation
 	but display is used for the element exists or not
 
 7-2 CSS Overflow visible, hidden, scroll, text-overflow, ellipsis
-	Overflow hidden, scroll, overflow x and y, ellipses is used to showing overflow with three dot (...)
+	Overflow hidden, scroll, auto, overflow-x and overflow-y, ellipses is used to showing overflow with three dot (...)
 
 7-3 Optimize images, types of images, svg, png, jpg, Sprite
 	Tinypng for optimizing a image.
