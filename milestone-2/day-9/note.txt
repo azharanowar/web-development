@@ -1,4 +1,6 @@
-Module 7: More CSS, Icon, CSS3, Animation
+Module 7 - More CSS, Icon, CSS3, Animation
+
+
 
 7-1 Visibility Hidden vs Display None
 	visibility is used just for hide or show

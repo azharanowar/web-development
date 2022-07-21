@@ -1,4 +1,4 @@
-Module - 8: Resposive CSS Layout
+Module 8 - Responsive CSS Layout
 
 
 8-2 flexbox, flex direction justify content align items

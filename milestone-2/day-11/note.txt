@@ -1,0 +1,32 @@
+Module 9: HTML CSS Only Landing Page (Leader Board)
+
+
+
+9-1 Module Introduction and Project resources
+
+
+9-2 Use grid and flex layout to align the players
+
+
+9-3 Extract style information from figma and apply to players
+
+
+9-4 Style debug to fix style, add horizontal line break
+
+
+9-5 Create one blog using flex layout and style adjustment
+
+
+9-6 Add multiple blogs and use grid layout to get two columns
+
+
+9-7 Create Single course and use font awesome ratings
+
+
+9-8 Add all courses and set grid layout for three columns
+
+
+9-9 Set Media query to display blog in mobile devices
+
+
+9-10 Plain HTML5 and CSS3 website Module summary
