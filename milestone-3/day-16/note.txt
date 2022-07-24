@@ -1,0 +1,20 @@
+Module 12 - Responsive Layout using Bootstrap
+
+
+12-2 Flex layout, justify content, align items, horizontal center
+
+12-3 Bootstrap responsive Container and breakpoints
+
+12-4 Grid System with 12 column layout, responsive grid
+
+12-5 Responsive players using bootstrap grid columns
+
+12-6 (Recap) More Responsive Example for Bags and Jackets
+
+12-7 Responsive Card layout using card layout and gutters
+
+12-8 Create Form with Floating label and form validation
+
+12-9 Explore Bootstrap examples and themes
+
+12-10 Module Summary
