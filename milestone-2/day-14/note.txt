@@ -1,0 +1,15 @@
+Module 10.5 - [Bonus] UI UX, future strategy about html, css
+
+10_5-1 Introduction to UI UX, Different layout with example websites
+
+
+10_5-2 Rules to follow as best practice while designing a website
+
+
+10_5-3 Five things to avoid for a good website design
+
+
+10_5-4 Design Resources, figma edit and design secrets
+
+
+10_5-5 Your Future strategy for HTML(HTML5) and CSS(CSS3)
