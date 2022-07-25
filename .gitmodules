@@ -1,3 +1,6 @@
 [submodule "milestone-1/day-4/portfolio-website"]
 	path = milestone-1/day-4/portfolio-website
 	url = https://github.com/azharanowar/portfolio-website.git
+[submodule "milestone-3/day-17/convention-center"]
+	path = milestone-3/day-17/convention-center
+	url = https://github.com/azharanowar/convention-center.git
