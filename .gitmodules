@@ -7,3 +7,6 @@
 [submodule "milestone-1/day-5/eat-health"]
 	path = milestone-1/day-5/eat-health
 	url = https://github.com/azharanowar/eat-health.git
+[submodule "milestone-1/day-6/donate-today"]
+	path = milestone-1/day-6/donate-today
+	url = https://github.com/azharanowar/donate-today.git
