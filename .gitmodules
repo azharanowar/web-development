@@ -13,3 +13,6 @@
 [submodule "milestone-2/day-9/cricket-animation"]
 	path = milestone-2/day-9/cricket-animation
 	url = https://github.com/azharanowar/cricket-animation.git
+[submodule "milestone-2/day-11/leader-board-responsive-website"]
+	path = milestone-2/day-11/leader-board-responsive-website
+	url = https://github.com/azharanowar/leader-board-responsive-website.git
