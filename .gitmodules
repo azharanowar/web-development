@@ -10,3 +10,6 @@
 [submodule "milestone-1/day-6/donate-today"]
 	path = milestone-1/day-6/donate-today
 	url = https://github.com/azharanowar/donate-today.git
+[submodule "milestone-2/day-9/cricket-animation"]
+	path = milestone-2/day-9/cricket-animation
+	url = https://github.com/azharanowar/cricket-animation.git
