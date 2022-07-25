@@ -16,3 +16,6 @@
 [submodule "milestone-2/day-11/leader-board-responsive-website"]
 	path = milestone-2/day-11/leader-board-responsive-website
 	url = https://github.com/azharanowar/leader-board-responsive-website.git
+[submodule "milestone-2/day-12/influencer-gear-responsive-landing-page"]
+	path = milestone-2/day-12/influencer-gear-responsive-landing-page
+	url = https://github.com/azharanowar/influencer-gear-responsive-landing-page.git
