@@ -1,6 +1,3 @@
 [submodule "milestone-1/day-4/milestone-1/day-4"]
 	path = milestone-1/day-4/milestone-1/day-4
 	url = https://github.com/azharanowar/portfolio-website.git
-[submodule "portfolio-website"]
-	path = portfolio-website
-	url = https://github.com/azharanowar/portfolio-website.git
