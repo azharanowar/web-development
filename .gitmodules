@@ -19,3 +19,6 @@
 [submodule "milestone-2/day-12/influencer-gear-responsive-landing-page"]
 	path = milestone-2/day-12/influencer-gear-responsive-landing-page
 	url = https://github.com/azharanowar/influencer-gear-responsive-landing-page.git
+[submodule "milestone-2/day-13/qatar-world-cup"]
+	path = milestone-2/day-13/qatar-world-cup
+	url = https://github.com/azharanowar/qatar-world-cup.git
