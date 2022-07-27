@@ -1,0 +1,31 @@
+Module 13 - Simple Ecommerce Landing Page Using Bootstrap
+
+
+13-2 Container, set navbar, set navbar logo image
+
+
+13-3 Set top banner carousel, image slider, custom rows
+
+
+13-4 Categories, gutters, flex vertical center and sound space
+
+
+13-5 Shoe and backpack shopping card, card-group, card shadow
+
+
+13-6 Create BackPack section using multi cursor edit
+
+
+13-7 Subscribe section, Footer, text center, id navigation
+
+
+13-8 Override default bootstrap style using custom CSS
+
+
+13-9 Have fun deploying to Netlify via drag and drop
+
+
+13-10 Module summary, Code Recap, extra practice
+
+
+Quiz 13
