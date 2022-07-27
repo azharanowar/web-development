@@ -22,3 +22,6 @@
 [submodule "milestone-2/day-13/qatar-world-cup"]
 	path = milestone-2/day-13/qatar-world-cup
 	url = https://github.com/azharanowar/qatar-world-cup.git
+[submodule "milestone-3/day-18/panda-ecommerce"]
+	path = milestone-3/day-18/panda-ecommerce
+	url = https://github.com/azharanowar/panda-ecommerce.git
