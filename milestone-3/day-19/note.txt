@@ -1,0 +1,24 @@
+Module 14 - A simple Introduction to Tailwind
+
+
+14-1 Getting started with tailwind and build a button
+
+14-2 Compare Tailwind classes with bootstrap classes
+
+14-3 Tailwind Flexbox and compare with bootstrap
+
+14-4 Explore Tailwind grid with row and column span
+
+14-5 Penguin fashion overview and tailwind extension setup
+
+14-6 Apply header with custom button and svg hero icons
+
+14-7 Make header responsive, and set custom color
+
+14-8 Setup custom card and card grid using tailwind css
+
+14-9 Responsive grid and custom grid layout
+
+14-10 Module Summary and Tailwind component Library
+
+Quiz_14
