@@ -28,3 +28,6 @@
 [submodule "milestone-3/day-19/penguin-fashion"]
 	path = milestone-3/day-19/penguin-fashion
 	url = https://github.com/azharanowar/penguin-fashion.git
+[submodule "milestone-3/day-21/edtech"]
+	path = milestone-3/day-21/edtech
+	url = https://github.com/azharanowar/edtech.git
