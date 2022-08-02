@@ -35,7 +35,7 @@ console.log(fullName);
 
 
 
-// Javascript variable type convertion:
+// Javascript variable type conversion:
 
 // var price1 = '100';
 // var price2 = '50';
