@@ -1,0 +1,14 @@
+Module 15.5 - HTML, CSS, Bootstrap Bonus
+
+
+15_5-1 Create a three column multiple rows layout
+
+15_5-2 Nested row and column layout with no gutter
+
+15_5-3 Six CSS measuring Unit that you need to know
+
+15_5-4 How to debug CSS and HTML using devtool
+
+15_5-5 Run Javascript in Visual Studio Code to get ready
+
+15_5-6 Be determined to get best out of our course
