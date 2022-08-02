@@ -1,0 +1,3 @@
+Milestone 4 - Hello Javascript
+
+This is a new journey with javascript

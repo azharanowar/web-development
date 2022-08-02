@@ -1,0 +1,24 @@
+Module 16 - Introduction to JavaScript
+
+
+16-1 Introduction to JavaScript, Run JavaScript in VSCode
+
+16-2 Math Needed to start learning Programming Language
+
+16-3 What is variable, five things you need to declare a variable
+
+16-4 Variable type, Numeric, String, Boolean
+
+16-5 JavaScript Keyword, Variable name naming convention
+
+16-6 Simple Mathematical operations in JavaScript
+
+16-7 (advanced) Mathematical operation shorthand
+
+16-8 (advanced) String Concatenation, type conversion parseInt parseFloat
+
+16-9 Variable types, toFixed, parseFloat and remainder
+
+16-10 Module Summary and Practice Problem
+
+Quiz 16
