@@ -33,3 +33,22 @@ fullName = firstName + ' ' + lastName;
 
 console.log(fullName);
 
+
+
+// Javascript variable type convertion:
+
+// var price1 = '100';
+// var price2 = '50';
+// var totalPrice = price1 + price2;
+// console.log(totalPrice);
+
+// var price1 = 100;
+// var price2 = '50';
+// var totalPrice = price1 + price2;
+// console.log(totalPrice);
+
+var price1 = '100';
+var price2 = '50';
+var totalPrice = parseInt(price1) + parseInt(price2);
+console.log(totalPrice);
+
