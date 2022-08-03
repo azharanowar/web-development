@@ -16,3 +16,5 @@ console.log(numbers[0]);
 console.log(numbers[ numbers.length - 1 ])
 
 
+// Array length is used to count array total elements
+console.log(numbers.length);
