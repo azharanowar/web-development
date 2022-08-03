@@ -7,9 +7,12 @@ var studentsName = ["Anowar", "Fozle", "Nihad", "Shorip", "Asif"];
 console.log(numbers);
 
 
-// Print a value of array by index number
+// Print value of array by index number
 console.log(numbers[2]);
-
 console.log(numbers[0]);
+
+
+// Print array last elements value
+console.log(numbers[ numbers.length - 1 ])
 
 
