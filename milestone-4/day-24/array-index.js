@@ -23,6 +23,14 @@ var studentsName = [ "Azhar", "Anowar", "Arafat", "Ali", "Nihad" ];
 
 
 // Add a new element to an array particular index
+// console.log(numbers);
+// numbers.splice(0, 0, 20); // here first arguments is index number, second one is how many elements to remove and third one is value to add.
+// console.log(numbers);
+
+
+// Remove an element from an array particular index
 console.log(numbers);
-numbers.splice(0, 0, 20); // here first arguments is index number, second one is how many elements to remove and third one is value to add.
+numbers.splice(1, 1); // here first arguments is index number, second one is how many elements to remove.
 console.log(numbers);
+
+
