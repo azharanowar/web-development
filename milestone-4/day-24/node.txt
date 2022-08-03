@@ -1,4 +1,4 @@
-Module 17 - Fundamental Concepts Array and conditionals
+Module 17 - Fundamental Concepts Array and Conditionals
 
 
 17-1 Module Introduction and Variable recap
