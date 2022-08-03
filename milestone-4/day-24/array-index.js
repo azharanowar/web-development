@@ -28,7 +28,7 @@ var studentsName = [ "Azhar", "Anowar", "Arafat", "Ali", "Nihad" ];
 // console.log(numbers);
 
 
-// Remove an element from an array particular index
+// Remove elements from an array particular index
 console.log(numbers);
 numbers.splice(1, 1); // here first arguments is index number, second one is how many elements to remove.
 console.log(numbers);
