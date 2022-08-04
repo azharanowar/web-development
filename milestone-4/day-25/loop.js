@@ -5,3 +5,7 @@ while ( roastGiven <= 5 ) {
     console.log("Koibar Deya Hoice: " + roastGiven );
     roastGiven++
 }
+
+for ( i = 0; i <= 100; i++ ) {
+    console.log( i );
+}
