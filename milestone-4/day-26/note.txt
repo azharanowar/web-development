@@ -1,0 +1,6 @@
+Module 18.5 - Practice Variable, Array, Conditionals, Loop
+
+
+18_5-1 Recap and Practice Variable, Array, Conditionals
+
+18_5-2 Practice Loop and assess your current JS Level
