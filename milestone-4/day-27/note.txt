@@ -1,0 +1,22 @@
+Module 19 - Core Concepts, Functions, and Objects
+
+
+19-1 Module Introduction and Concept Recap
+
+19-2 Declare a Function, call function, function vs loop
+
+19-3 Add Function parameter, handle multiple parameters
+
+19-4 Everything you need to know about return from a function
+
+19-5 Function examples and Function summary
+
+19-6 Declare multiple objects with multiple properties
+
+19-7 multiple ways to get and set object property
+
+19-8 (advanced) Looping through an Object and Object summary
+
+19-9 Module summary and practice problem
+
+Quiz 19
