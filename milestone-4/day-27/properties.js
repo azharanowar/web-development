@@ -22,3 +22,8 @@ console.log(studentInfo[group]);
 // Get object all properties/keys name by Object.keys():
 var studentInfoKeys = Object.keys(studentInfo);
 console.log(studentInfoKeys);
+
+
+// Get object all values by Object.values():
+var studentInfoValues = Object.values(studentInfo);
+console.log(studentInfoValues); 
