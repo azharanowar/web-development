@@ -32,3 +32,17 @@ sum( 120, 500 );
 sum( 50, 50 );
 sum( 10, 20 );
 sum( 100, 30 );
+
+
+
+
+function sum(num1, num2) {
+    var sum = num1 + num2;
+    return sum;
+}
+
+var result1 = sum( 30, 50 );
+var result2 = sum( 10, 10 );
+
+var finalResult = sum( result1, result2 );
+console.log(finalResult);
