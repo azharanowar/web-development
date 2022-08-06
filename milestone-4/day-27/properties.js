@@ -7,6 +7,7 @@ var studentInfo = {
 }
 
 
-// Get object value
+// Get object value keys
 console.log(studentInfo.name);
 console.log(studentInfo.roll);
+
