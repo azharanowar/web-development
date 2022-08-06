@@ -19,6 +19,12 @@ console.log( student );
 console.log( student.name );
 
 
+// Object value update:
+console.log(mobile);
+mobile.ram = "62GB";
+console.log(mobile); // Updated object values
+
+
 
 // Array with objects
 let students = [
