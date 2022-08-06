@@ -1,3 +1,4 @@
+// Even odd function with perameters and no return.
 function evenOddChecker( number ) {
     if ( number % 2 == 0 ) {
         console.log(number, "is a even number.");
@@ -13,7 +14,7 @@ evenOddChecker(21);
 evenOddChecker(111);
 
 
-
+// Even odd function with perameters and return.
 function evenOddNumberChecker( number ) {
     var result;
     if ( number % 2 == 0 ) {
