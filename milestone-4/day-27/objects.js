@@ -13,3 +13,7 @@ let mobile = {
     storage: "500GB",
     ram: "32GB"
 }
+
+
+console.log( student );
+console.log( student.name );
