@@ -27,3 +27,11 @@ console.log(studentInfoKeys);
 // Get object all values by Object.values():
 var studentInfoValues = Object.values(studentInfo);
 console.log(studentInfoValues); 
+
+
+
+
+
+// Object keys/properties value update:
+studentInfo.name = "Mohammad Ali";
+console.log( Object.values(studentInfo) );
