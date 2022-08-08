@@ -12,4 +12,4 @@ function findLeapYears( years ) {
 
 let years = [2012, 2023,2024,2025,2028,2030];
 let leapYears = findLeapYears( years );
-console.log(leapYears)
+console.log(leapYears);
