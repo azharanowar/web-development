@@ -1,0 +1,22 @@
+Module 20 - Apply JavaScript Concepts
+
+
+20-1 JS Conceots recap, var, let, and cosnt
+
+20-2 Unit Convert Inch to Feet, miles to kilometer
+
+20-3 Check even and odd number using function
+
+20-4 Check whether a year is a Leap Year or not (simplified way)
+
+20-5 Calculate Sum of all numbers of an array
+
+20-6 Get Odd Numbers of an array and get odd Sum of an array
+
+20-7 Calculate Factorial of a number using for loop
+
+20-8 Factorial using a while loop or a decrementing loop
+
+20-9 Module Summary and Simple JavaScript debug
+
+Quiz 20
