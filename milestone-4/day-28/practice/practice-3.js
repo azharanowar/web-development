@@ -10,5 +10,5 @@ function findOddSum( numbers ) {
 }
 
 
-let result = findOddSum([12, 20, 21, 23, 1, 20, 25]);
+let result = findOddSum([1, 5, 8, 3, 15, 10, 22]);
 console.log(result);
