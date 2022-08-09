@@ -1,0 +1,24 @@
+Module 22 - More JS Coding Problems
+
+
+22-1 Module Introduction and isArray, includes, concat
+
+22-2 Get part of an array and insert elements using slice, splice
+
+22-3 Remove duplicate items from an array
+
+22-4 Write foo, bar, foobar if divisible by 3 or 5 or both
+
+22-5 Use add and multiplication to calculate wood requirements
+
+22-6 Find the cheapest phone from an array of phone objects
+
+22-7 Calculate the total cost of the products in a shopping cart
+
+22-8 (advanced) Multi-layer discount price calculation
+
+22-9 Handle unexpected function input parameter error
+
+22-10 Module Summary and importance of problem solving
+
+Quiz 22
