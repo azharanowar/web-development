@@ -1,0 +1,24 @@
+Module 21 - JavaScript Simple Coding Problems
+
+
+21-1 String comparison using toLowerCase toUpperCase
+
+21-2 Apply Search includes, indexOf, startswith, endswith
+
+21-3 How to split, slice, substr, substring, concat, join
+
+21-4 Math, abs, pow, round, ceil, floor, and random number
+
+21-5 Swap variable, swap without temp, destructing
+
+21-6 Can you find out who will get the delicious cake?
+
+21-7 Who is the tallest? Find the max number in an array
+
+21-8 Reverse a string and Reverse words in a sentence
+
+21-9 (advanced) Create a Fibonacci Series using a for loop
+
+21-10 Module Summary and where you need to focus
+
+Quiz 21
