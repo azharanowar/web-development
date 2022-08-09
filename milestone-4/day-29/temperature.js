@@ -7,3 +7,16 @@ function celsiusToFuhrenheit( celsius ) {
 
 const fuhrenheit = celsiusToFuhrenheit( 100 );
 console.log( fuhrenheit );
+
+
+
+
+function fuhrenheitToCelsius( fuhrenheit ) {
+    const celsius = 5 / 9 * ( fuhrenheit - 32 );
+
+    return celsius;
+}
+
+
+const celsius = fuhrenheitToCelsius( 212 );
+console.log( celsius );
