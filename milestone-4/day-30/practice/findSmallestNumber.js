@@ -1,3 +1,5 @@
+// Find smallest number from an array
+
 function findSmallestNumber( numbers ) {
     let smallestNumber = numbers[0];
     for ( i = 0; i < numbers.length; i++ ) {
