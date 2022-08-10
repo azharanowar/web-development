@@ -26,4 +26,10 @@ console.log( typeof rolls ); // To check is that array or not typeof is not work
 
 console.log( Array.isArray( students ) );
 console.log( Array.isArray( sum ) );
-console.log( Array.isArray( rolls ) );
+console.log( Array.isArray( rolls ) )
+
+
+const moreRolls = [ 169711, 169721, 169722, 169728, 169748 ];
+
+const allRolls = moreRolls.concat(rolls);
+console.log( allRolls );
