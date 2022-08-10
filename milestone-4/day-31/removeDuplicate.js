@@ -1,5 +1,20 @@
+// Remove duplicate values from an array
+
+function removeDuplicateValues( studentsName ) {
+    let uniqueStudentsName = [];
+    for ( let studentName of studentsName ) {
+        if (!uniqueStudentsName.includes(studentName)) {
+            uniqueStudentsName.push(studentName);
+        }
+    }
+
+    return uniqueStudentsName;
+}
 
 
+const studentsName = [ "Ali", "Arafat", "Shorip", "Anowar", "Nihad", "Omar", "Arafat", "Said", "Shorip", "Anowar", "Shakhawat", "Shakhawat", "Omar", "Shakhawat", "Omar", "Omar", "Ali" ];
+const uniqueStudentsName = removeDuplicateValues( studentsName );
+console.log( uniqueStudentsName );
 
 
 
