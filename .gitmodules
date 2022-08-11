@@ -34,3 +34,6 @@
 [submodule "milestone-3/day-20/nike-react"]
 	path = milestone-3/day-20/nike-react
 	url = https://github.com/azharanowar/nike-react.git
+[submodule "milestone-4/day-33/assignment-four"]
+	path = milestone-4/day-33/assignment-four
+	url = https://github.com/azharanowar/assignment-four.git
