@@ -1,0 +1,24 @@
+Module 24 - Tour of DOM (Document Object Model)
+
+
+24-0 What matters in this milestone
+
+24-1 What is dom, Connect your JS file with html file
+
+24-2 Traversing dom - getElementsByTagName
+
+24-3 Traversing dom - getElementByClass VS getElementById
+
+24-4 Traversing dom - getElementByQuerySelector, querySelectorAll
+
+24-5 Dynamic style, getAttribute, setAttribute, innerText, innerHTML
+
+24-6 Styling dom properties, add and remove css class using JS
+
+24-7 NodeList, htmlcollection, parentNode, childnodes, createElement
+
+24-8 Create HTML elements using Javascript and appendChild
+
+24-9 Module summary (DOM Review)
+
+Quiz 24
