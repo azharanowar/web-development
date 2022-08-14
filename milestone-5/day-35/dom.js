@@ -25,3 +25,10 @@ const unorderedList = document.querySelector('.unordered-list');
 
 const unorderedListsQuerySelector = document.querySelectorAll('.unordered-list');
 console.log(unorderedListsQuerySelector[1]);
+
+
+
+// getAttribute, setAttribute, innerText, innerHTML
+
+const heading = document.getElementById('heading');
+console.log(heading.getAttribute('title'));
