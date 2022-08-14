@@ -15,3 +15,7 @@ console.log(document.getElementsByTagName('h1')[0]);
 
 const unorderedLists = document.getElementsByClassName('unordered-list');
 console.log(unorderedLists);
+
+
+const friends = document.getElementById("friends");
+console.log(friends);
