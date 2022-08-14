@@ -54,7 +54,7 @@ console.log( headingTwo.classList.remove("title") );
 
 
 
-// NodeList, htmlcollection, parentNode, childnodes, createElement
+// NodeList, htmlcollection, parentNode, childNodes, createElement
 
 const sectionOne = document.getElementById('sectionOne');
 console.log(sectionOne.childNodes);
@@ -63,3 +63,16 @@ console.log(sectionOne.parentNode);
 console.log(sectionOne.childNodes[1].innerHTML);
 
 console.log(sectionOne.childNodes[1].getAttribute('id'));
+
+
+const oldFriends = document.getElementById('friends');
+
+const newFriend = document.createElement('li');
+console.log(newFriend);
+
+newFriend.innerHTML = "Mohammad Ali";
+console.log(newFriend);
+
+oldFriends.append(newFriend)
+
+
