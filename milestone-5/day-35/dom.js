@@ -39,3 +39,13 @@ googleLink.setAttribute('href', 'https://azharanowar.com');
 
 heading.innerHTML = "Hello From JS innerHTML";
 googleLink.text = "Hello From JS innerText";
+
+
+// classList add and remove css class using JS
+
+const headingTwo = document.getElementById('headingTwo');
+console.log( headingTwo.classList[0] );
+console.log( headingTwo.classList[1] );
+console.log( headingTwo.classList[2] );
+console.log( headingTwo.classList.add("title-two") );
+console.log( headingTwo.classList.remove("title") );

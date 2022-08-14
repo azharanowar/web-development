@@ -1,3 +1,7 @@
 body {
     background-color: yellow;
 }
+
+.text-xl {
+    font-size: 40px;
+}
