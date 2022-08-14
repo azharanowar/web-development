@@ -1,5 +1,5 @@
-console.log( "Hello World!" );
-console.log(document)
+// console.log( "Hello World!" );
+// console.log(document)
 
 let listItems = document.getElementsByTagName('li');
 
@@ -11,11 +11,14 @@ for ( let item of listItems ) {
 
 
 const headings = document.getElementsByTagName('h1')[0].innerText = "Hello From JavaScript!";
-console.log(document.getElementsByTagName('h1')[0]);
+// console.log(document.getElementsByTagName('h1')[0]);
 
 const unorderedLists = document.getElementsByClassName('unordered-list');
-console.log(unorderedLists);
+// console.log(unorderedLists);
 
 
 const friends = document.getElementById("friends");
-console.log(friends);
+// console.log(friends);
+
+const fruits = document.querySelector('.unordered-list');
+console.log(fruits);
