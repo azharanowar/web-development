@@ -34,4 +34,8 @@ const heading = document.getElementById('heading');
 console.log(heading.getAttribute('title'));
 
 const googleLink = document.getElementById('googleLink');
-googleLink.setAttribute('href', 'https://azharanowar.com')
+googleLink.setAttribute('href', 'https://azharanowar.com');
+
+
+heading.innerHTML = "Hello From JS innerHTML";
+googleLink.text = "Hello From JS innerText";
