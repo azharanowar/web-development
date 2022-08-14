@@ -20,5 +20,8 @@ const unorderedLists = document.getElementsByClassName('unordered-list');
 const friends = document.getElementById("friends");
 // console.log(friends);
 
-const fruits = document.querySelector('.unordered-list');
-console.log(fruits);
+const unorderedList = document.querySelector('.unordered-list');
+// console.log(unorderedList);
+
+const unorderedListsQuerySelector = document.querySelectorAll('.unordered-list');
+console.log(unorderedListsQuerySelector[1]);
