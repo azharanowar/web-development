@@ -8,3 +8,7 @@ console.log(listItems);
 for ( let item of listItems ) {
     console.log( item.innerText );
 }
+
+
+const headings = document.getElementsByTagName('h1')[0].innerText = "Hello From JavaScript!";
+console.log(document.getElementsByTagName('h1')[0]);
