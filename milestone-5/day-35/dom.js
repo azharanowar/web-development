@@ -48,4 +48,18 @@ console.log( headingTwo.classList[0] );
 console.log( headingTwo.classList[1] );
 console.log( headingTwo.classList[2] );
 console.log( headingTwo.classList.add("title-two") );
+console.log( headingTwo.classList.add("text-xl") );
 console.log( headingTwo.classList.remove("title") );
+
+
+
+
+// NodeList, htmlcollection, parentNode, childnodes, createElement
+
+const sectionOne = document.getElementById('sectionOne');
+console.log(sectionOne.childNodes);
+console.log(sectionOne.childNodes[1]);
+console.log(sectionOne.parentNode);
+console.log(sectionOne.childNodes[1].innerHTML);
+
+console.log(sectionOne.childNodes[1].getAttribute('id'));
