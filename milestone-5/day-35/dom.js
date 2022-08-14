@@ -32,3 +32,6 @@ console.log(unorderedListsQuerySelector[1]);
 
 const heading = document.getElementById('heading');
 console.log(heading.getAttribute('title'));
+
+const googleLink = document.getElementById('googleLink');
+googleLink.setAttribute('href', 'https://azharanowar.com')
