@@ -45,8 +45,6 @@ function makePink() {
 
 // JS event calling option 4 another (addEventListener with a anonymous function) we will use this way many times and this is a standard way:
 const makeOrangeBtn = document.getElementById('makeOrange');
-makeOrangeBtn.addEventListener('click', makeOrange);
-
-function makeOrange() {
+makeOrangeBtn.addEventListener('click', function () {
     document.body.style.backgroundColor = 'orange';
-}
+});
