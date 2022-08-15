@@ -48,3 +48,17 @@ const makeOrangeBtn = document.getElementById('makeOrange');
 makeOrangeBtn.addEventListener('click', function () {
     document.body.style.backgroundColor = 'orange';
 });
+
+
+
+
+
+
+
+
+function textChangeWithHtmlAttribute() {
+    const textToBeChange = document.getElementById('textToBeChange');
+    textToBeChange.innerHTML = "The Text is Changing from HTML Event Attribute Called Function!"
+}
+
+
