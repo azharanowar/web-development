@@ -67,3 +67,11 @@ const eventListenerBtn = document.getElementById('eventListenerBtn');
 eventListenerBtn.addEventListener('click', function() {
     document.getElementById('textToBeChange').innerHTML = "The Text is Changing from addEventListener Function!";
 })
+
+
+
+
+document.getElementById('showTextBtn').addEventListener('click', function() {
+    const inputFieldValue = document.getElementById('inputField').value;
+    document.getElementById('inputToShow').innerHTML = inputFieldValue;
+});
