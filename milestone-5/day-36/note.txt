@@ -1,0 +1,22 @@
+Module 25 - Event, addEventListener, Event bubble
+
+
+25-1 What is Event, different types of event in web
+
+25-2 Add onclick handler directly or via javascript
+
+25-3 Different ways to use addEventListener on a button
+
+25-4 Most common ways to set Event Handlers
+
+25-5 Create a comment box and display comment
+
+25-6 Simple github like delete confirmation button
+
+25-7 (semi-advanced) Event bubble and Stop propagating
+
+25-8 (advanced) Event delegate and benefit of Event bubble
+
+25-9 DOM events summary and home work
+
+Quiz 25
