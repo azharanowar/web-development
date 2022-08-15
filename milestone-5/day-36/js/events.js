@@ -62,3 +62,8 @@ function textChangeWithHtmlAttribute() {
 }
 
 
+
+const eventListenerBtn = document.getElementById('eventListenerBtn');
+eventListenerBtn.addEventListener('click', function() {
+    document.getElementById('textToBeChange').innerHTML = "The Text is Changing from addEventListener Function!";
+})
