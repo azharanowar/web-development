@@ -18,7 +18,10 @@
 //     console.log("Blur Event Triggered!")
 // });
 
-document.getElementById("inputField").addEventListener('mousemove', function() {
-    console.log("Mouse Move Event Triggered!")
-});
+// document.getElementById("inputField").addEventListener('mousemove', function() {
+//     console.log("Mouse Move Event Triggered!")
+// });
 
+document.getElementById("inputField").addEventListener('mouseenter', function() {
+    console.log("Mouse Enter Event Triggered!")
+});
