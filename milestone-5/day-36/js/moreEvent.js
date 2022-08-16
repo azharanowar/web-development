@@ -10,6 +10,10 @@
 //     console.log("Focus In Event Triggered!")
 // });
 
-document.getElementById("inputField").addEventListener('focusout', function() {
-    console.log("Focus Out Event Triggered!")
+// document.getElementById("inputField").addEventListener('focusout', function() {
+//     console.log("Focus Out Event Triggered!")
+// });
+
+document.getElementById("inputField").addEventListener('blur', function() {
+    console.log("Blur Event Triggered!")
 });
