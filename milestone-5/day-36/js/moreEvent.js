@@ -14,6 +14,11 @@
 //     console.log("Focus Out Event Triggered!")
 // });
 
-document.getElementById("inputField").addEventListener('blur', function() {
-    console.log("Blur Event Triggered!")
+// document.getElementById("inputField").addEventListener('blur', function() {
+//     console.log("Blur Event Triggered!")
+// });
+
+document.getElementById("inputField").addEventListener('mousemove', function() {
+    console.log("Mouse Move Event Triggered!")
 });
+
