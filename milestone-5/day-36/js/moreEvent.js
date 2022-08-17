@@ -45,3 +45,8 @@
 // document.getElementById("inputField").addEventListener('mouseup', function() {
 //     console.log("Mouse Up Event Triggered!")
 // });
+
+
+document.getElementById("inputField").addEventListener('keydown', function(event) {
+    console.log(event.target.value)
+});
