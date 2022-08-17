@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide Show Event Triggering</title>
+</head>
+<body>
+    <h1 id="headingOne">This is heading one. Delete the heading now!</h1>
+    <p>Please type here DELETE</p>
+    <input type="text" id="inputField" placeholder="Write DELETE Here To Confirm">
+    <button type="button" id="deleteBtn" disabled>Delete</button>
+
+<script>
+    const deleteBtn = document.getElementById("deleteBtn");
+    const inputField = document.getElementById("inputField");
+    inputField.addEventListener("keyup", function() {
+        if ( inputField.value === "DELETE" ) {
+            // deleteBtn.removeAttribute("disabled");
+            deleteBtn.disabled = false;
+        } else {
+            // deleteBtn.setAttribute("disabled", "true");
+            deleteBtn.disabled = true;
+        }
+    })
+
+    deleteBtn.addEventListener("click", function() {
+        document.getElementById("headingOne").style.display = "none";
+    });
+    
+</script>
+</body>
+</html>
