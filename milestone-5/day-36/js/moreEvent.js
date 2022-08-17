@@ -47,6 +47,11 @@
 // });
 
 
-document.getElementById("inputField").addEventListener('keydown', function(event) {
+// document.getElementById("inputField").addEventListener('keydown', function(event) {
+//     console.log(event.target.value)
+// });
+
+
+document.getElementById("inputField").addEventListener('keypress', function(event) {
     console.log(event.target.value)
 });
