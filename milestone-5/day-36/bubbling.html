@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling</title>
+    <style>
+        #section {
+            border: 2px solid salmon;
+        }
+
+        #listUL {
+            border: 2px solid magenta;
+        }
+
+        #listItem3 {
+            border: 2px solid steelblue;
+        }
+    </style>
+</head>
+<body>
+    <section id="section">
+        <h1>Exploring Event Bubbling</h1>
+        <ul id="listUL">
+            <li id="listItem1">Lorem 1</li>
+            <li id="listItem2">Lorem 2</li>
+            <li id="listItem3">Lorem 3</li>
+            <li id="listItem4">Lorem 4</li>
+            <li id="listItem5">Lorem 5</li>
+        </ul>
+    </section>
+
+
+<script>
+    document.getElementById("listItem3").addEventListener('click', function(event) {
+        console.log("List item 3 clicked!");
+        event.stopPropagation();
+    });
+    document.getElementById("listUL").addEventListener('click', function() {
+        console.log("List ul clicked!");
+    });
+    document.getElementById("section").addEventListener('click', function() {
+        console.log("Section clicked!");
+    });
+</script>
+</body>
+</html>
