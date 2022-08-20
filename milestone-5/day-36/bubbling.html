@@ -16,6 +16,7 @@
 
         #listItem3 {
             border: 2px solid steelblue;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -36,6 +37,13 @@
     document.getElementById("listItem3").addEventListener('click', function(event) {
         console.log("List item 3 clicked!");
         event.stopPropagation();
+        event.stopImmediatePropagation();
+    });
+    document.getElementById("listItem3").addEventListener('click', function(event) {
+        console.log("List item 3 clicked second time!");
+    });
+    document.getElementById("listItem3").addEventListener('click', function(event) {
+        console.log("List item 3 clicked third time!");
     });
     document.getElementById("listUL").addEventListener('click', function() {
         console.log("List ul clicked!");
