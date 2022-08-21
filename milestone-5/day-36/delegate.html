@@ -18,10 +18,12 @@
             <li id="listItem4" class="item">Lorem 4</li>
             <li id="listItem5" class="item">Lorem 5</li>
         </ul>
+        <button type="button" id="addItemBtn">Add Item</button>
     </section>
 
 
 <script>
+
     const listItems = document.getElementsByClassName("item");
     for ( item of listItems ) {
         item.addEventListener("click", function(event) {
@@ -29,6 +31,13 @@
             console.log(selectedEvent);
         });
     }
+
+    const addItemBtn = document.getElementById("addItemBtn").addEventListener("click", function() {
+        const newList = document.createElement('li');
+        newList.classList.add('item');
+        newList.innerText = "New List Item";
+        document.getElementById("listUL").appendChild(newList);
+    });
 </script>
 </body>
 </html>
