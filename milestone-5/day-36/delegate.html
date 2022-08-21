@@ -18,19 +18,24 @@
             <li id="listItem4" class="item">Lorem 4</li>
             <li id="listItem5" class="item">Lorem 5</li>
         </ul>
-        <button type="button" id="addItemBtn">Add Item</button>
     </section>
+    <button type="button" id="addItemBtn">Add Item</button>
 
 
 <script>
 
-    const listItems = document.getElementsByClassName("item");
-    for ( item of listItems ) {
-        item.addEventListener("click", function(event) {
-            const selectedEvent = event.target.parentNode.removeChild(event.target);
-            console.log(selectedEvent);
-        });
-    }
+    // const listItems = document.getElementsByClassName("item");
+    // for ( item of listItems ) {
+    //     item.addEventListener("click", function(event) {
+    //         const selectedEvent = event.target.parentNode.removeChild(event.target);
+    //         console.log(selectedEvent);
+    //     });
+    // }
+
+    document.getElementById("section").addEventListener("click", function(event) {
+        event.target.parentNode.removeChild(event.target);
+        event.stopPropagation;
+    });
 
     const addItemBtn = document.getElementById("addItemBtn").addEventListener("click", function() {
         const newList = document.createElement('li');
