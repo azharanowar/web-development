@@ -1,0 +1,22 @@
+Module 27 - Bank Calculation Using Functions(advanced)
+
+
+27-1 Module overview and project setup
+
+27-2 (recap) Get User deposit and set deposit total value
+
+27-3 (recap) Update deposit and balance and read code
+
+27-4 Money withdraw and reduce balance for withdraw
+
+27-5 (semi-advanced) Common function to reduce code repeat
+
+27-6 (advanced) Share one function between two input field
+
+27-7 (advanced) get and set element value using a function
+
+27-8 (advanced) Shared Balance update function
+
+27-9 (advanced) Nested function and error handling
+
+Quiz 27
