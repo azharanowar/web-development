@@ -1,0 +1,7 @@
+Module 27.5 - Shopping Cart, develop an interactive Cart
+
+
+27_5-1 DOM manipulation checklist and a practice challenge
+
+
+Practice work has been done on penguin-fashion-tailwind repo.
