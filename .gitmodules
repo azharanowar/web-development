@@ -43,3 +43,6 @@
 [submodule "milestone-5/day-39/functional-fathers-bank"]
 	path = milestone-5/day-39/functional-fathers-bank
 	url = https://github.com/azharanowar/functional-fathers-bank.git
+[submodule "milestone-5/day-40/basic-calculator"]
+	path = milestone-5/day-40/basic-calculator
+	url = https://github.com/azharanowar/basic-calculator.git
