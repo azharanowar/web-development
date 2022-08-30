@@ -1,4 +1,4 @@
-Module 27.5 - Shopping Cart, develop an interactive Cart
+Module 27.5 - Practice Day (Calculator)
 
 
 27_5-1 DOM manipulation checklist and a practice challenge
