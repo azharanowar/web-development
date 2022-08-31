@@ -1,0 +1,22 @@
+Module 28 - Shopping Cart and Pin Matcher
+
+
+28-1 Module Overview and shopping cart increase case count
+
+28-2 shopping cart handle decrease and update price
+
+28-3 Calculate phone cost using the same shared function
+
+28-4 (semi-advanced) Set Phone plus and minus button working
+
+28-5 (advanced) Calculate subtotal tax amount and final total
+
+28-6 Pin matcher overview Generate pin and display it
+
+28-7 Use event bubble to create calculator and clear
+
+28-8 Verify match and show correct message
+
+28-9 Pin Matcher overview and daily challenge
+
+Quiz 28
