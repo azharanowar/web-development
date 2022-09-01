@@ -49,3 +49,6 @@
 [submodule "milestone-5/day-40/functional-calculator"]
 	path = milestone-5/day-40/functional-calculator
 	url = https://github.com/azharanowar/functional-calculator.git
+[submodule "milestone-5/day-41/shopping-cart"]
+	path = milestone-5/day-41/shopping-cart
+	url = https://github.com/azharanowar/shopping-cart.git
