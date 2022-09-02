@@ -52,3 +52,6 @@
 [submodule "milestone-5/day-41/shopping-cart"]
 	path = milestone-5/day-41/shopping-cart
 	url = https://github.com/azharanowar/shopping-cart.git
+[submodule "milestone-5/day-41/pin-matcher-solution"]
+	path = milestone-5/day-41/pin-matcher-solution
+	url = https://github.com/azharanowar/pin-matcher-solution.git
