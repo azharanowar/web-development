@@ -58,3 +58,6 @@
 [submodule "milestone-5/day-42/money-master-practice-azharanowar"]
 	path = milestone-5/day-42/money-master-practice-azharanowar
 	url = https://github.com/programming-hero-web-course2/money-master-practice-azharanowar.git
+[submodule "milestone-5/day-42/money-master"]
+	path = milestone-5/day-42/money-master
+	url = https://github.com/azharanowar/money-master.git
