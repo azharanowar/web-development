@@ -1,0 +1,10 @@
+Module 28.5 - Practice and revision day
+
+
+28_5-1 Create private repository and deploy to netlify for assignment
+
+28_5-2 Practice and review integrate Javascript with checklist
+
+
+Working on private repository: 
+https://github.com/programming-hero-web-course2/money-master-practice-azharanowar

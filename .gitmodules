@@ -55,3 +55,6 @@
 [submodule "milestone-5/day-41/pin-matcher-solution"]
 	path = milestone-5/day-41/pin-matcher-solution
 	url = https://github.com/azharanowar/pin-matcher-solution.git
+[submodule "milestone-5/day-42/money-master-practice-azharanowar"]
+	path = milestone-5/day-42/money-master-practice-azharanowar
+	url = https://github.com/programming-hero-web-course2/money-master-practice-azharanowar.git
