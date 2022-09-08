@@ -1,0 +1,12 @@
+Module 29.5 - Integrate Javascript Bonus Content
+
+
+29_5-1 When to use getElementById and querySelector
+
+29_5-2 Different types of error in Javascript
+
+29_5-3 Explore Try-catch-finally to handle code with error
+
+29_5-4 (semi-advanced) A simple introduction to Date object in JavaScript
+
+29_5-5 (advanced) Get confused by isNaN
