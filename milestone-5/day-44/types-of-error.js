@@ -3,3 +3,6 @@
 var num = [20, 60, 60];
 console.log(num[[20]])
 console.log(number)
+
+
+// 2. ReferenceError
