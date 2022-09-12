@@ -26,3 +26,6 @@
 
 // const a = 50;
 // a = 30;
+
+
+// More Errors: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
