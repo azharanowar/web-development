@@ -1,0 +1,24 @@
+Module 30 - JS Recap and Basic ES6, ES2015
+
+
+30-0 What matters in this milestone
+
+30-1 Recap of DOM Manipulation and event handler
+
+30-2 ES6 Intro difference between var, Let and const
+
+30-3 Function default parameter for not provided values
+
+30-4 Template string, multiple line string, dynamic string
+
+30-5 Arrow function, multiple parameter, function body
+
+30-6 More Arrow functions and big arrow function
+
+30-7 Spread operator, array max, copy arrays
+
+30-8 (advanced) Object and Array Destructuring
+
+30-9 Module Summary and Practice Problems
+
+Quiz 30
