@@ -10,4 +10,4 @@
 
 // 2. ReferenceError
 
-console.log(something());
+// console.log(something());
