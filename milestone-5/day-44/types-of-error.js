@@ -5,3 +5,9 @@
 // }
 
 // myFunc();
+
+
+
+// 2. ReferenceError
+
+console.log(something());
