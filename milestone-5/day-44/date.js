@@ -45,12 +45,24 @@
 
 
 
-const dateOne = new Date('1971-10-15');
-const dateTwo = new Date('1971-01-25');
+// const dateOne = new Date('1971-10-15');
+// const dateTwo = new Date('1971-01-25');
+// console.log(dateOne.getTime(), dateTwo.getTime());
+
+// if ( dateOne.getTime() > dateTwo.getTime() ) {
+//     console.log("Date one is bigger than date two!!!");
+// } else {
+//     console.log("Date two is bigger than date one!!!");
+// }
+
+
+
+const dateOne = new Date('1971-03-15');
+const dateTwo = new Date('1971-10-25');
 console.log(dateOne.getTime(), dateTwo.getTime());
 
-if ( dateOne.getTime() > dateTwo.getTime() ) {
-    console.log("Date one is bigger than date two!!!");
+if ( dateOne.getTime() < dateTwo.getTime() ) {
+    console.log("March is before december!!!");
 } else {
-    console.log("Date two is bigger than date one!!!");
+    console.log("December is before march!!!");
 }
