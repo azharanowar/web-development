@@ -19,3 +19,10 @@
 // for ( let i = 10; i < 100, i++ ) {
 //     console.log("Hello")
 // }
+
+
+
+// 4. TypeError ( Creates an instance representing an error that occurs when a variable or parameter is not of a valid type. )
+
+// const a = 50;
+// a = 30;
