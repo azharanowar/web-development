@@ -2,7 +2,7 @@ document.getElementById("addNewFriendBtn").addEventListener('click', function() 
     const newFriend = document.createElement("div");
     newFriend.setAttribute("class", "friend");
     newFriend.innerHTML = `
-    <h2>Friends Name - </h2>
+    <h2>New Friend Addeded</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, ea. Facere consectetur quae praesentium eum itaque.
     </p>`;
     document.getElementById("listOfFriends").appendChild(newFriend)
