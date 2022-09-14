@@ -12,10 +12,30 @@ console.log(result); */
 
 
 
+
+
 // Solving this problem with parameter validation:
 
-// Way - 1 ( Old way, we will not use that. ):
-function add(firstNumber, secondNumber) {
+
+// Way - 1 ( Old way, we will not use that anymore ):
+
+/* function add(firstNumber, secondNumber) {
+    if (firstNumber === undefined) {
+        firstNumber = 0;
+    }
+    if (secondNumber === undefined) {
+        secondNumber = 0;
+    }
+    return firstNumber + secondNumber;
+}
+const result = add();
+console.log(result); */
+
+
+
+// Way - 2 ( New and best way to solve this issue with ES6 ):
+
+function add(firstNumber = 0, secondNumber = 0) {
     if (firstNumber === undefined) {
         firstNumber = 0;
     }
@@ -26,3 +46,5 @@ function add(firstNumber, secondNumber) {
 }
 const result = add();
 console.log(result);
+
+// When we will not provide any value with arguments then it will apply parameter default value. But when there is a value with argument default value will not used anymore.
