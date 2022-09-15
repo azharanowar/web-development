@@ -21,9 +21,8 @@ console.log(Math.max(...numbers)); */
 
 
 
-
+/* 
 const numbers1 = [30, 20, 40, 45, 66];
-
 const numbers2 = numbers1;
 
 console.log(numbers1, numbers2);
@@ -33,3 +32,20 @@ console.log(numbers1, numbers2);    // Here is a problem, when we are trying to 
 
 numbers2.push(200);
 console.log(numbers1, numbers2);    // Here we added a new element to our second array not first array still both are having same value. It's happening for storing reference variable.
+ */
+
+
+
+// Well we will solve this issue by this: 
+
+const numbers1 = [30, 20, 40, 45, 66];
+const numbers2 = [...numbers1];
+
+console.log(numbers1, numbers2);
+
+numbers1.push(100);
+console.log(numbers1, numbers2);
+
+numbers2.push(200);
+console.log(numbers1, numbers2);
+
