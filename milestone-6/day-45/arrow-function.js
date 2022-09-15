@@ -25,3 +25,7 @@ console.log(result(20, 30)); */
 
 const result = (firstNumber, secondNumber) => firstNumber + secondNumber;
 console.log(result(20, 40));
+
+const sum = (firstNumber, secondNumber, thirdNumber) => firstNumber + secondNumber +thirdNumber;
+
+console.log(sum(50, 100, 200));
