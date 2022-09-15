@@ -29,3 +29,10 @@ console.log(result(20, 40));
 const sum = (firstNumber, secondNumber, thirdNumber) => firstNumber + secondNumber +thirdNumber;
 
 console.log(sum(50, 100, 200));
+
+
+
+
+
+const  message = helloMessage => "Hello from arrow function!!!";
+console.log(message());
