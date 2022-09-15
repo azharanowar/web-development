@@ -13,4 +13,5 @@ const result = function (firstNumber, secondNumber) {
     return firstNumber + secondNumber;
 }
 
+console.log(result(20, 30))
 
