@@ -20,7 +20,8 @@ console.log(result(20, 30)); */
 
 // Arrow Function:
 
-const result = () => { return 30 + 40; }
+// const result = () => { return 30 + 40; }
+// console.log(result());
 
-console.log(result());
-
+const result = (firstNumber, secondNumber) => firstNumber + secondNumber;
+console.log(result(20, 40));
