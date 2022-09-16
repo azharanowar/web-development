@@ -38,7 +38,7 @@ console.log(numbers1, numbers2);    // Here we added a new element to our second
 
 // Well we will solve this issue by this: 
 
-const numbers1 = [30, 20, 40, 45, 66];
+/* const numbers1 = [30, 20, 40, 45, 66];
 const numbers2 = [...numbers1];
 
 console.log(numbers1, numbers2);
@@ -48,4 +48,20 @@ console.log(numbers1, numbers2);
 
 numbers2.push(200);
 console.log(numbers1, numbers2);
+ */
+
+
+
+// Another usecase of spread syntax:
+
+const sum = (numberOne, numberTwo, numberThree, numberFour, numberFive) => numberOne + numberTwo + numberThree + numberFour + numberFive;
+
+// console.log(sum(10, 20, 30, 40, 50));    // Here with 5 parameters of a arrow function everything working fine. But what if you have a array with your all parameters value?
+
+const paraNumbers = [10, 20, 30, 40, 50];
+
+// console.log(sum(paraNumbers));      // It's not working this way, so let's use spread syntax and see is that work or not.
+console.log(sum(...paraNumbers));      // Yeah, Now it's working absolutely fine.
+
+
 
