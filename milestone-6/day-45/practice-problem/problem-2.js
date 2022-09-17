@@ -9,20 +9,16 @@
 
 const friends = ["Arafat", "Shorip", "Nihad", "Ali", "Forid", "Asif", "Shakhawat"];
 
-const evenFriendsName = []
-const oddFriendsName = [];
 const firendsNameEventOdd = (friends) => {
+    const evenFriendsName = [];
     for (const friend of friends) {
         if (friend.length % 2 === 0) {
             evenFriendsName.push(friend);
-        } else {
-            oddFriendsName.push(friend);
         }
     }
 
-    return;
+    return evenFriendsName;
 }
 
-firendsNameEventOdd(friends);
-console.log("Event Name Friends: ", evenFriendsName);
-console.log("Odd Name Friends: ", oddFriendsName);
+const evenFriendsName = firendsNameEventOdd(friends);
+console.log("Even Name Friends: ", evenFriendsName);
