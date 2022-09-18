@@ -1,0 +1,22 @@
+Module 31 - (Advanced) ES6, Class, Inheritance
+
+
+31-1 Module Introduction and Basic ES6 Recap
+
+31-2 Access Value, nested object Optional chaining
+
+31-3 Array map to do one line loop magic
+
+31-4 Map string array, array of objects map, foreach
+
+31-5 Implement filter, find on an array of objects
+
+31-6 (optional) Explore Reduce and Dot notation
+
+31-7 (semi-advanced) Class, constructor, method, create object from class
+
+31-8 (advanced) Inheritance, extends class, super, class method
+
+31-9 Module summary and Practice Problem
+
+Quiz 31
