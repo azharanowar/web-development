@@ -7,9 +7,12 @@
 var testVar = "Var is a not block scope element, That's mean it has hoisting feature. We will not use var anymore.";
 console.log(testVar); */
 
-// console.log(testLet); // We can't call let variable before declaration.
+/* // console.log(testLet); // We can't call let variable before declaration.
 let testLet = "Let is a block scope element, That's meant there is no hoisting feature. We can't re-declare let variable but we can re-assign let variable value.";
 console.log(testLet);
 // let testLet = "Re-declaring let"; // We can't re-declare let but we can re-assign value:
 testLet = "Re-assigned let variable value."
-console.log(testLet);
+console.log(testLet); */
+
+// const testConst = "Const is a block-scope elements, that meant there is no hoisting feature. Const can't be re-decalre or re-assign.";
+// console.log(testConst);
