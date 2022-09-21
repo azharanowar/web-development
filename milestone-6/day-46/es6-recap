@@ -70,7 +70,7 @@ console.log(mul(...numbers));
 
 
 // 4. Arrow Function:
-const sum = () => "Return from a simple arrow function.";
+/* const sum = () => "Return from a simple arrow function.";
 console.log(sum());
 
 const square = number => number * number;
@@ -85,5 +85,10 @@ const message = () => {
     console.log("Message three...");
     return "Final Message!";
 }
+console.log(message()); */
 
-console.log(message());
+
+// Immediately Invoked Function Expressions (IIFE Function):
+( () => {
+    console.log("Hello from another type of function (IIFE Function)!!! This function is not needed to call anymore, This type of function calls automatically when javascript interpret start.");
+})();
