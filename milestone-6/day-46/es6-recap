@@ -1,0 +1,8 @@
+// ES6 Practice and Recap...
+
+
+// 1. Difference Between var, let and const:
+
+console.log(testVar);
+var testVar = "Var is a not block scope element, That's mean it has hoisting feature. We will not use var anymore.";
+console.log(testVar);
