@@ -107,3 +107,25 @@ const dynamicCode = `<div>
 </div>`
 
 console.log(dynamicCode);
+
+
+
+
+// 6. Object/Array Destructuring:
+const userInfo = {
+    fullName: "Azhar Anowar",
+    emailAddress: "azharanowar@gmail.com",
+    phoneNumber: "01875967162",
+    websiteURL: "https://azharanowar.com"
+}
+
+const {fullName, emailAddress, ...moreInfo} = userInfo;
+
+console.log(fullName);
+console.log(emailAddress);
+console.log(moreInfo);
+
+
+const userNames = ["azharanowar", "fozlearafat", "asifulislam"];
+const [username1, username2, username3] = userNames;
+console.log(username1, username2);
