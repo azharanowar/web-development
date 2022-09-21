@@ -38,6 +38,11 @@ class CollageWork {
 }
 
 
-const collageWorkObj = new CollageWork("Azhar Anowar", "azharanowar@gmail.com");
-collageWorkObj.classPresentation("21-09-2022");
-collageWorkObj.classAssignment("05");
+const collageWorkObj1 = new CollageWork("Azhar Anowar", "azharanowar@gmail.com");
+collageWorkObj1.classPresentation("21-09-2022");
+collageWorkObj1.classAssignment("05");
+
+
+const collageWorkObj2 = new CollageWork("Fozle Arafat", "fozlearafat@gmail.com");
+collageWorkObj2.classPresentation("21-09-2022");
+collageWorkObj2.classAssignment("05");
