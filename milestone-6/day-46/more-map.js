@@ -14,3 +14,7 @@ const categoriesAvailableProducts = categories.map(category => category.availabl
 console.log(categoriesAvailableProducts);
 
 
+
+categories.forEach(category => console.log(category.name));
+
+
