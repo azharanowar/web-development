@@ -92,3 +92,18 @@ console.log(message()); */
 ( () => {
     console.log("Hello from another type of function (IIFE Function)!!! This function is not needed to call anymore, This type of function calls automatically when javascript interpret start.");
 })();
+
+
+
+
+// 5. Template Literature:
+
+const value = 500;
+const dynamicCode = `<div>
+    <h1>This is heading one!!!</h1>
+    <h2>This is heading two!!!</h2>
+    <p>This is heading a paragraph</p>
+    <h3>Dynamic value = ${value}</h3>
+</div>`
+
+console.log(dynamicCode);
