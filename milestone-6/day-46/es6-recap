@@ -36,9 +36,34 @@ console.log(testLet); */
 
 // 2. Default Parameter Value:
 
-function sum(numberOne = 10, numberTwo = 10) {
+/* function sum(numberOne = 10, numberTwo = 10) {
     return numberOne + numberTwo;
 }
 
 console.log(sum(20, 30));
-console.log(sum(10)); // Here we didn't pass second argument value. so it will take default value as 10. 
+console.log(sum(10)); // Here we didn't pass second argument value. so it will take default value as 10.  */
+
+
+
+// 3. Spread Operator:
+
+/* console.log(Math.max(20, 43, 30, 40, 40, 20, 60, 3, 50, 34));
+// But what if we have an array of numbers to be compared? Then it will not work:
+const numbers = [20, 43, 30, 40, 40, 20, 60, 3, 50, 34];
+console.log(Math.max(numbers)); // Because we need here to provide numbers list or an array. Here spread syntax/operator come:
+console.log(Math.max(...numbers));
+ */
+
+// Another usecase, For example we have an array where array all elements will be a function arguments:
+
+/* 
+function mul(num1, num2, num3) {
+    return num1 * num2 * num3;
+}
+
+console.log(mul(2, 3, 4));
+
+const numbers = [2, 3, 4];
+console.log(mul(numbers));
+console.log(mul(...numbers)); 
+*/
