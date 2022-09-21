@@ -15,6 +15,9 @@
 
 
 
+
+// 1. Difference Between var, let and const:
+
 /* console.log(testVar);
 var testVar = "Var is a not block scope element, That's mean it has hoisting feature. We will not use var anymore.";
 console.log(testVar); */
@@ -28,3 +31,14 @@ console.log(testLet); */
 
 // const testConst = "Const is a block-scope elements, that meant there is no hoisting feature. Const can't be re-decalre or re-assign.";
 // console.log(testConst);
+
+
+
+// 2. Default Parameter Value:
+
+function sum(numberOne = 10, numberTwo = 10) {
+    return numberOne + numberTwo;
+}
+
+console.log(sum(20, 30));
+console.log(sum(10)); // Here we didn't pass second argument value. so it will take default value as 10. 
