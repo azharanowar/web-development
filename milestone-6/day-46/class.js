@@ -20,18 +20,24 @@ console.log(studentObj.gpaCalculator());
 
 
 class CollageWork {
-    classPresentation(name, date) {
-        const message = `${name} was present in the class of ${date}`;
+    name;
+    email;
+    constructor(name, email) {
+        this.name = name;
+        this.email = email;
+    }
+    classPresentation(date) {
+        const message = `${this.name} was present in the class of ${date}, his email address is ${this.email}`;
         console.log(message);
     }
 
-    classAssignment(name, assignmentNumber) {
-        const message = `${name} has successfully submitted his assignment number - ${assignmentNumber}`;
+    classAssignment(assignmentNumber) {
+        const message = `${this.name} has successfully submitted his assignment number - ${assignmentNumber}, his email address is ${this.email}`;
         console.log(message);
     }
 }
 
 
-const collageWorkObj = new CollageWork;
-collageWorkObj.classPresentation("Azhar Anowar", "21-09-2022");
-collageWorkObj.classAssignment("Azhar Anowar", "05");
+const collageWorkObj = new CollageWork("Azhar Anowar", "azharanowar@gmail.com");
+collageWorkObj.classPresentation("21-09-2022");
+collageWorkObj.classAssignment("05");
