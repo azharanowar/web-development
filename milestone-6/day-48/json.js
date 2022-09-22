@@ -17,6 +17,10 @@ const userStringified = JSON.stringify(userInfo);   // Convert JavaScript Object
 console.log(userStringified);
 
 
+const userStringifiedToObject = JSON.parse(userStringified);    // Convert JSON String to JavaScript Object.
+console.log(userStringifiedToObject);
+
+
 /* 
 JavaScript Object: 
 {
