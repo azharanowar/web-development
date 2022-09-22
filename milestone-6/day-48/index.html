@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetch</title>
+    <title>Fetch Data from API</title>
+    <style>
+        .post-section {
+            text-align: center;
+        }
+        .post {
+            padding: 20px;
+            text-align:center;
+            background-color: salmon;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+    </style>
 </head>
 <body>
-    <button onclick="loadData('https://jsonplaceholder.typicode.com/todos/1')">Load Data</button>
+    <!-- <button onclick="loadData('https://jsonplaceholder.typicode.com/todos/1')">Load Data</button> -->
     <button onclick="loadUsers()">Load Users</button>
     <button onclick="loadPosts()">Load Posts</button>
 
-    <h2>All User Name</h2>
-    <ol id="usersName">
+    <section class="user-section">
+        <h2>All User Name</h2>
+        <ol id="usersName">
+            <!-- Dynamically load li from api -->
+        </ol>
+    </section>
 
-    </ol>
-
-    <h2>All Post Title</h2>
-    <ol id="postsTitle">
-
-    </ol>
+    <section class="post-section">
+        <h2>All Posts</h2>
+        <div id="allPosts">
+            <!-- Dynamic post will load here... -->
+        </div>
+    </section>
 
 <script src="js/fetch.js"></script>
 <script src="js/app.js"></script>

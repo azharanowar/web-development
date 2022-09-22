@@ -28,9 +28,12 @@ const loadPosts = () => {
 }
 
 const displayPosts = posts => {
+    const allPosts = document.getElementById("allPosts");
+    console.log(posts);
     posts.forEach(post => {
-        const newLiTag = document.createElement('li');
-        newLiTag.innerText = post.title;
-        document.getElementById("postsTitle").appendChild(newLiTag);
+        const newPostDiv = document.createElement('div');
+        newPostDiv.setAttribute('class', 'post');
+        newPostDiv.innerHTML = `<h3>Title: ${post.title}</h3><p>Description: ${post.body}</p>`
+        allPosts.appendChild(newPostDiv);
     });
 }
