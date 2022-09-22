@@ -11,9 +11,13 @@ const loadUsers = () => {
       .then(data => displayUsers(data))
 }
 
-const displayUsers = data => {
-    const usersName = data.map(user => user.name);
-    console.log(usersName);
+const displayUsers = users => {
+    const userNameUl = document.getElementById("usersName");
+    users.forEach(user => {
+        const newUserLiTag = document.createElement('li');
+        newUserLiTag.innerText = user.name;
+        userNameUl.appendChild(newUserLiTag);
+    })
 }
 
 
