@@ -35,3 +35,31 @@ JSON String:
 
 */
 
+
+
+
+console.log("\n================\n");
+const shopInfo = {
+    name: "Anowar Store",
+    ownerName: "Azhar Anowar" ,
+    address: {
+        street: "Mizan Road, Mizan Para",
+        city: "Feni",
+        postNumber: 3900,
+        country: "Bangladesh"
+    },
+    productsList: ["Mobile", "Laptop", "Charger", "Headphone", "Watch"],
+    monthlyRevenue: 50000,
+    employee: 6,
+    isOpen: true
+};
+
+console.log(shopInfo);
+
+
+const shopInfoJSON = JSON.stringify(shopInfo);
+console.log(shopInfoJSON);
+
+
+const shopInfoObj = JSON.parse(shopInfoJSON);
+console.log(shopInfoObj);
