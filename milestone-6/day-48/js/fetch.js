@@ -18,9 +18,6 @@ function loadData(url) {
       .then(data => console.log(data))
 }
 
-loadData('https://jsonplaceholder.typicode.com/todos/1');
-
-
 
 
 
