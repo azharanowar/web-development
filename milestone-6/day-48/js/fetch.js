@@ -4,9 +4,20 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then(json => console.log(json))
 */
 
-
+/* 
 const url = 'https://jsonplaceholder.typicode.com/todos/1';
 fetch(url)
   .then(response => response.json())
   .then(json => console.log(json))
+*/
+
+
+
+
+
+
+// Load all posts from a API/URL:
+fetch('https://jsonplaceholder.typicode.com/posts')
+  .then(response => response.json())
+  .then(json => console.log(json));
 
