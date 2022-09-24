@@ -64,3 +64,6 @@
 [submodule "milestone-5/day-43/best-five-dom-assignment-azharanowar"]
 	path = milestone-5/day-43/best-five-dom-assignment-azharanowar
 	url = https://github.com/programming-hero-web-course2/best-five-dom-assignment-azharanowar.git
+[submodule "milestone-6/day-49/random-user-generator"]
+	path = milestone-6/day-49/random-user-generator
+	url = https://github.com/azharanowar/random-user-generator.git
