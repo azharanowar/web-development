@@ -1,0 +1,22 @@
+Module 33 - API Examples and edge cases
+
+
+33-1 Basic API concept recap with Kanye West
+
+33-2 Handle Random User Data with Nested API data
+
+33-3 International Travel, Display countries name, capital
+
+33-4 (advanced) Call dynamic API, load dynamic data to display
+
+33-5 Explore meal db api and create card for each meal
+
+33-6 Display dynamic search result using bootstrap cards
+
+33-7 (advanced) Create dynamic url based on click and display data
+
+33-8 (Optional) handle fetch error, use try catch and async await
+
+33-9 Recap, Module Summary and home work
+
+Quiz 33
