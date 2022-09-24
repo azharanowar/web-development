@@ -29,7 +29,6 @@ const loadPosts = () => {
 
 const displayPosts = posts => {
     const allPosts = document.getElementById("allPosts");
-    console.log(posts);
     posts.forEach(post => {
         const newPostDiv = document.createElement('div');
         newPostDiv.setAttribute('class', 'post');
