@@ -67,3 +67,6 @@
 [submodule "milestone-6/day-49/random-user-generator"]
 	path = milestone-6/day-49/random-user-generator
 	url = https://github.com/azharanowar/random-user-generator.git
+[submodule "milestone-6/day-49/show-all-countries"]
+	path = milestone-6/day-49/show-all-countries
+	url = https://github.com/azharanowar/show-all-countries.git
