@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Countries with REST API</title>
+    <style>
+        .countries {
+            text-align: center;
+        }
+
+        .country {
+            margin: 15px;
+            padding: 15px;
+            background-color: antiquewhite;
+            border-radius: 10px;
+        }
+
+        .load-countries-btn {
+            height: 50px;
+            width: 220px;
+            background-color: coral;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            transition: 300ms ease-in-out all;
+        }
+        .load-countries-btn:hover {
+            background-color: rgb(236, 106, 58);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="countries" id="loadCountries">
+            <!-- Here dynamically will load all country... -->
+            <h1>Load All Country Information!!!</h1>
+            <button type="button" class="load-countries-btn" id="loadCountriesBtn">Load Countries</button>
+        </div>
+    </main>
+
+<script src="js/app.js"></script>
+</body>
+</html>
