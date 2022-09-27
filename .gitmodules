@@ -73,3 +73,6 @@
 [submodule "milestone-6/day-49/foods-store"]
 	path = milestone-6/day-49/foods-store
 	url = https://github.com/azharanowar/foods-store.git
+[submodule "milestone-6/day-50/the-sports-panda"]
+	path = milestone-6/day-50/the-sports-panda
+	url = https://github.com/azharanowar/the-sports-panda.git
