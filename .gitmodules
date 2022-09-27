@@ -76,3 +76,6 @@
 [submodule "milestone-6/day-50/the-sports-panda"]
 	path = milestone-6/day-50/the-sports-panda
 	url = https://github.com/azharanowar/the-sports-panda.git
+[submodule "milestone-6/day-51/mobile-market"]
+	path = milestone-6/day-51/mobile-market
+	url = https://github.com/azharanowar/mobile-market.git
