@@ -20,6 +20,7 @@ console.log(student);
 //     console.log(item);
 // }
 
+// Access object value by for in
 for (const itemKey in student) {
     // console.log(itemKey);
     console.log(student[itemKey]);
