@@ -13,9 +13,14 @@ const student = {
 
 console.log(student);
 
-console.log(student.roll);
+// console.log(student.roll);
 
 // We can't use for of in a object. Because for of isn't iterable like array is.
 // for(const item of student) {
 //     console.log(item);
 // }
+
+for (const itemKey in student) {
+    // console.log(itemKey);
+    console.log(student[itemKey]);
+}
