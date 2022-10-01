@@ -65,3 +65,36 @@ const person2 = {
 console.log(person2);
 delete person2.run;     // Remove object method by delete keyword.
 console.log(person2);
+
+
+
+
+// seal, freeze practice:
+
+const student2 = {
+    name: "Azhar Anowar",
+    roll: 181040,
+    reg: 1500980692,
+    semester: '8th',
+    shift: '2nd',
+    group: 'B',
+    subjectsList: ["Mathematics", "Physics", "Chemistry", "English", "Microprocessor", "Programming", "Data Structure", "Database"],
+    exam: function() {
+        console.log(this.name + ' is sitting the final year exam of diploma ' + this.semester + ' semester.');
+    }
+}
+
+student2.name = "Fozle Arafat";
+student2.roll = 169756;
+delete student2.reg;
+
+console.log(student2);
+
+// Let's seal student2 and see what happens.
+Object.seal(student2);
+
+student2.name = "Ai Nihad";     // seal() method allow to update but can't delete.
+student2.roll = 169748;
+delete student2.shift;      // can't delete a property or method with seal().
+
+console.log(student2);
