@@ -98,3 +98,35 @@ student2.roll = 169748;
 delete student2.shift;      // can't delete a property or method with seal().
 
 console.log(student2);
+
+
+
+
+// Let's see how freeze() works:
+const student3 = {
+    name: "Azhar Anowar",
+    roll: 181040,
+    reg: 1500980692,
+    semester: '8th',
+    shift: '2nd',
+    group: 'B',
+    subjectsList: ["Mathematics", "Physics", "Chemistry", "English", "Microprocessor", "Programming", "Data Structure", "Database"],
+    exam: function() {
+        console.log(this.name + ' is sitting the final year exam of diploma ' + this.semester + ' semester.');
+    }
+}
+
+student3.name = "Ai Nihad";
+student3.roll = 169748;
+delete student3.reg;
+
+console.log(student3);
+
+// Let's freeze student2 and see what happens.
+Object.freeze(student3);
+
+student3.name = "Shakhawat Sabbir";     // freeze() method not allow to update.
+student3.roll = 169775;
+delete student3.shift;      // freeze() method not allow to delete.
+
+console.log(student3);
