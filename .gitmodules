@@ -79,3 +79,6 @@
 [submodule "milestone-6/day-51/mobile-market"]
 	path = milestone-6/day-51/mobile-market
 	url = https://github.com/azharanowar/mobile-market.git
+[submodule "milestone-6/day-53/country-guide"]
+	path = milestone-6/day-53/country-guide
+	url = https://github.com/azharanowar/country-guide.git
