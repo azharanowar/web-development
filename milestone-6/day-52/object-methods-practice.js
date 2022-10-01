@@ -39,3 +39,29 @@ for (const studentKeyValue of studentKeysValues) {
         console.log(item)
     }
 }
+
+
+
+// Delete a property or method from a object:
+
+const person1 = {
+    name: "Abu Bakar",
+    email: "abubakar@gmail.com"
+}
+
+console.log(person1);
+delete person1.email;   // Delete a object property by delete keyword.
+console.log(person1);
+
+
+const person2 = {
+    name: "Mehedi Hasan",
+    email: "mehedi@gmail.com",
+    run: () => {
+        console.log("This person can run so fast.");
+    }
+}
+
+console.log(person2);
+delete person2.run;     // Remove object method by delete keyword.
+console.log(person2);
