@@ -85,3 +85,6 @@
 [submodule "milestone-6/day-54/b6-news-portal-assignment-azharanowar"]
 	path = milestone-6/day-54/b6-news-portal-assignment-azharanowar
 	url = https://github.com/Programming-Hero-Web-Course4/b6-news-portal-assignment-azharanowar.git
+[submodule "milestone-6/day-55/weather-now"]
+	path = milestone-6/day-55/weather-now
+	url = https://github.com/azharanowar/weather-now.git
