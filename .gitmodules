@@ -82,3 +82,6 @@
 [submodule "milestone-6/day-53/country-guide"]
 	path = milestone-6/day-53/country-guide
 	url = https://github.com/azharanowar/country-guide.git
+[submodule "milestone-6/day-54/b6-news-portal-assignment-azharanowar"]
+	path = milestone-6/day-54/b6-news-portal-assignment-azharanowar
+	url = https://github.com/Programming-Hero-Web-Course4/b6-news-portal-assignment-azharanowar.git
